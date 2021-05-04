@@ -1,0 +1,138 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  font-family: Poppins;
+  background-color: #f3f3f3;
+}
+
+.background-img {
+  position: fixed;
+  z-index: -1;
+  right: 0px;
+  bottom: 0px;
+}
+
+h1 {
+  font-size: 66px;
+  font-weight: bold;
+  color: #a8b3c5;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.36;
+  letter-spacing: normal;
+  color: #141c3a;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 70vw;
+  min-height: 80vh;
+  margin: 50px auto;
+  background-color: #fff;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 150px;
+
+  .sub-title {
+    display: block;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .img-connect {
+    margin-top: 65px;
+    width: 65%;
+  }
+
+  .sub-title-description {
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: #3b4658;
+    margin-top: 37px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .btn-click {
+    display: block;
+    width: 311px;
+    height: 57px;
+    line-height: 2.3;
+    border-radius: 35px;
+    text-align:center;
+    font-weight: 600;
+    background-color: #7fc6b9;
+    color: #fff;
+    padding-top: 17px;
+    font-size: 18px;
+    margin: 65px auto;
+  }
+
+  .logo {
+    margin-top: 30px;
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .container {
+    margin: 0px auto;
+    margin-top: 0px;
+    width: 100vw;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .container {
+    margin-top: 0px;
+    width: 100vw;
+
+    .btn-click {
+      width: 220px;
+      height: 47px;
+      line-height: 2.3;
+      border-radius: 35px;
+      padding-top: 17px;
+      font-size: 15px;
+    }
+  
+    .logo {
+      margin-top: 0px;
+      width: 200px;
+    }
+
+    .sub-title-description {
+      font-size: 15px;
+    }
+  }
+}

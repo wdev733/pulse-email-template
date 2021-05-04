@@ -1,0 +1,26 @@
+@import url(//fonts.googleapis.com/css?family=Poppins);
+@font-face {
+  font-family: "GT Haptik Bold";
+  src: url("../fonts/gt-haptik-bold/07342dff729e3ff82873f8eeee4c9612.eot");
+  /* IE9*/
+  src: url("../fonts/gt-haptik-bold/07342dff729e3ff82873f8eeee4c9612.eot?#iefix") format("embedded-opentype"), url("../fonts/gt-haptik-bold/07342dff729e3ff82873f8eeee4c9612.woff2") format("woff2"), url("../fonts/gt-haptik-bold/07342dff729e3ff82873f8eeee4c9612.woff") format("woff"), url("../fonts/gt-haptik-bold/07342dff729e3ff82873f8eeee4c9612.ttf") format("truetype"), url("../fonts/gt-haptik-bold/07342dff729e3ff82873f8eeee4c9612.svg#GT Haptik Bold") format("svg");
+  /* iOS 4.1- */
+}
+@font-face {
+  font-family: "GTHaptikTrialBold";
+  src: url("../fonts/GT-Haptik-Trial-Bold-Rotalic.otf") format("opentype");
+}
+@font-face {
+  font-family: "GTHaptikBold";
+  src: url("../fonts/GT-Haptik-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "HelveticaNeueLTStdMd";
+  src: url("../fonts/HelveticaNeueLTStd-Md.otf") format("opentype");
+}
+@font-face {
+  font-family: "GothamBook";
+  src: url("../fonts/Gotham-Book.otf") format("opentype");
+}
+
+/*# sourceMappingURL=font.css.map */

@@ -1,0 +1,116 @@
+@import url(//fonts.googleapis.com/css?family=Poppins);
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  font-family: Poppins;
+  background-color: #f3f3f3;
+}
+
+.container {
+  width: 800px;
+  margin: 0px auto;
+  padding: 0px 100px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 600px;
+  margin-top: 37px;
+  margin-bottom: 33px;
+  text-align: center;
+}
+
+.email {
+  width: 600px;
+  background-color: #fff;
+  padding: 64px 90px 64px 90px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.email-image {
+  width: 88px;
+  height: 88px;
+  border: 1px solid #e7e7e7;
+  border-radius: 44px;
+}
+.email-title {
+  font-size: 44px;
+  line-height: 1.23;
+  color: #363636;
+  font-weight: 500;
+}
+.email-content {
+  font-size: 16px;
+  color: #363636;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 0.1px;
+}
+.email-button {
+  width: 241px;
+  height: 52px;
+  padding: 16px 99px 16px 101px;
+  border-radius: 13px;
+  background-color: #62b5a6;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: 0.2px;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 24px;
+  box-sizing: border-box;
+}
+
+.footer {
+  width: 600px;
+  padding: 32px 0px 32px 0px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.footer-follow {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.29;
+  letter-spacing: 0.1px;
+  color: #363636;
+}
+.footer-link {
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 1.6;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #363636;
+}
+.footer-description {
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.57;
+  letter-spacing: 0.1px;
+  color: #a7a7a7;
+}
+.footer-copyright {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.57;
+  letter-spacing: 0.1px;
+  color: #a7a7a7;
+  margin-top: 32px;
+}
+.footer-social {
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+.footer-social-item {
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/*# sourceMappingURL=email3.css.map */

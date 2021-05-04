@@ -1,0 +1,19 @@
+{
+  "name": "pulse",
+  "version": "1.0.0",
+  "description": "Landing page",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run sass",
+    "sass": "sass src/assets/scss:src/assets/styles",
+    "sass-watch": "sass --watch src/assets/scss:src/assets/styles"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-favicon": "^2.0.1",
+    "sass": "^1.23.1"
+  }
+}
